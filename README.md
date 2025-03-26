@@ -19,20 +19,21 @@
 - *Session 3:* pl_medium_qclassifier_vX_x.ipynb (creates and executes a quantum classifier)
 - *Session 4:* pl_advanced_hybrid_vX_x.ipynb (creates and executes a quantum-classical hybrid model)
 - utilities.py (various functions used in model development and use)
-- requirements.txt (list of packages to be loaded with **pip install -r requirements.txt**)
+- requirements.txt (list of required packages)
 
 ### Folders
 - legacy: previous versions of files dated with the time of their removal
   
 ### Requirements
-- python, version 3.11 or above
-- pip install pennylane pennylane-lightning (PennyLane for CPU)
+_See the **requirements.txt** file, load with **pip install -r requirements.txt**._
+- Set up a virtual environment with venv or anaconda for Python 3.11, open it and install...
+- pip install pennylane==0.40.0 pennylane-lightning==0.40.0 (PennyLane for CPU)
 - pip install scikit-learn==1.6.1 pandas==2.2.3 (ML)
 - pip install matplotlib==3.10.1 plotly==6.0.0 seaborn==0.13.2 pillow==11.1.0 (plotting and image processing)
 - pip install jupyter==1.1.1 jupyterlab==4.3.5 (running jupyter notebooks)
 - pip install kagglehub==0.3.10 ucimlrepo==0.0.7 (data access)
 - pip install pdflatex (optionally to plot and export some plots and tables to latex)
-- install PyTorch [PyTorch](https://pytorch.org/get-started/locally/), as per instructions<br>
+- install [PyTorch](https://pytorch.org/get-started/locally/), as per web site instructions, also add:<br>
   pip install torchsummary torcheval torchmetrics
 
 ### License
