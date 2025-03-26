@@ -13,10 +13,13 @@
   - v2.0 (Mar 26, 2025): Created
 
 ### Important notebooks
-- pl_simple_tiny_model_vX_x.ipynb (explains QML principles using PennyLane)
-- pl_basic_sin_vX_x.ipynb (creates and executes a very simple quantum estimator)
-- pl_medium_qestimator_vX_x.ipynb (creates and executes a more complex quantum estimator)
+- *Warmup:* pl_simple_tiny_model_vX_x.ipynb (explains QML principles using PennyLane)
+- *Session 1:* pl_basic_sin_vX_x.ipynb (creates and executes a very simple quantum estimator)
+- *Session 2:* pl_medium_qestimator_vX_x.ipynb (creates and executes a more complex quantum estimator)
+- *Session 3:* pl_medium_qclassifier_vX_x.ipynb (creates and executes a quantum classifier)
+- *Session 4:* pl_advanced_hybrid_vX_x.ipynb (creates and executes a quantum-classical hybrid model)
 - utilities.py (various functions used in model development and use)
+- requirements.txt (list of packages to be loaded with **pip install -r requirements.txt**)
 
 ### Folders
 - legacy: previous versions of files dated with the time of their removal
