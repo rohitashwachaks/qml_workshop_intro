@@ -15,6 +15,8 @@
 ### Important notebooks
 - *Warmup:* pl_simple_tiny_model_vX_x.ipynb (explains QML principles using PennyLane)
 - *Session 1:* pl_basic_sin_vX_x.ipynb (creates and executes a very simple quantum estimator)
+
+The following are in draft, so do not download them (unless you are a developer)
 - *Session 2:* pl_medium_qestimator_vX_x.ipynb (creates and executes a more complex quantum estimator)
 - *Session 3:* pl_medium_qclassifier_vX_x.ipynb (creates and executes a quantum classifier)
 - *Session 4:* pl_advanced_hybrid_vX_x.ipynb (creates and executes a quantum-classical hybrid model)
