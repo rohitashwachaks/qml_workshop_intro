@@ -1,6 +1,10 @@
-## An introduction to QML in PennyLane
-- **Author:** Jacob Cybulski ([website](https://jacobcybulski.com/))
-- **Collaborators:** Sebastian Zając, Tomasz Rybotycki and Paweł Gora
+## An introduction to QML in PennyLane (PL)
+- **Author:** [Jacob Cybulski](https://jacobcybulski.com/) ([LinkedIn](https://www.linkedin.com/in/jacobcybulski/)), *Enquanted*
+- **Collaboration with:**
+      [Sebastian Zając](https://sebastianzajac.pl/) ([LinkedIn](https://www.linkedin.com/in/sebastianzajac/)),
+      Tomasz Rybotycki ([LinkedIn](https://www.linkedin.com/in/tomasz-rybotycki-01192582/)) and
+      Paweł Gora ([LinkedIn](https://www.linkedin.com/in/pawelgora/))
+- **Associated with:** [QPoland](https://qworld.net/qpoland/) and [Quantum AI Foundation](https://www.qaif.org/)
 - **Aims:** To explore the creation and use of simple estimation model in PennyLane.
 - **Description:** This Quantum Machine Learning (QML) workshop provides an introduction to Quantum Machine Learning using PennyLane and PyTorch, with hands-on exercises and take-home challenges. The workshop includes four practical sessions that cover the QML concepts, models, and techniques. The sessions explore development of quantum estimators and classifiers, their training with various optimisers, loss and cost functions, as well as model testing and scoring using variety of metrics. It finally, explains how to create hybrid quantum-classical QML models.
 - **Structure:** Four sessions over two days, i.e.
@@ -8,18 +12,26 @@
   - *Session 2:* Quantum estimators (intermediate)
   - *Session 3:* Quantum classifiers (intermediate)
   - *Session 4:* Hybrid models (advanced)
-- **Start Date:** April, 2025
+- **Release Date:**
+  - April, 11 2025
 - **Updates:**
-  - v2.0 (Mar 26, 2025): Created
+  - Mar 20, 2025 - Created with "explore" notebooks
+  - Mar 26, 2025 - Session 1 added (draft)
+  - Mar 27, 2025 - Session 2 added (draft)
 
 ### Important notebooks
-- *Warmup:* pl_simple_tiny_model_vX_x.ipynb (explains QML principles using PennyLane)
-- *Session 1:* pl_basic_sin_vX_x.ipynb (creates and executes a very simple quantum estimator)
+
+You can play with these notebooks, enjoy!
+
+- *Explore 1:* pl_explore_tiny_model_vX_x.ipynb (explains QML principles using PL)
+- *Explore 2:* pl_explore_meas_tests_vX_x.ipynb (explains data encoding and measurements in PL)
 
 The following are in draft, so do not download them (unless you are a developer)
-- *Session 2:* pl_medium_qestimator_vX_x.ipynb (creates and executes a more complex quantum estimator)
-- *Session 3:* pl_medium_qclassifier_vX_x.ipynb (creates and executes a quantum classifier)
-- *Session 4:* pl_advanced_hybrid_vX_x.ipynb (creates and executes a quantum-classical hybrid model)
+
+- *Session 1:* pl_simple_model_vX_x.ipynb (creates and tests a very simple quantum model)
+- *Session 2:* pl_medium_qestimator_vX_x.ipynb (creates and tests a more complex quantum estimator)
+- *Session 3:* pl_medium_qclassifier_vX_x.ipynb (creates and tests a quantum classifier)
+- *Session 4:* pl_advanced_hybrid_vX_x.ipynb (creates and tests a quantum-classical hybrid model)<br><br>
 - utilities.py (various functions used in model development and use)
 - requirements.txt (list of required packages)
 
