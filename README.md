@@ -31,6 +31,7 @@ The following are in draft, so do not download them (unless you are a developer)
 - *Session 1:* pl_simple_model_vX_x.ipynb (creates and tests a very simple quantum model)
 - *Session 2:* pl_medium_qestimator_vX_x.ipynb (creates and tests a more complex quantum estimator)
 - *Session 3:* pl_medium_qclassifier_vX_x.ipynb (creates and tests a quantum classifier)
+- *Session 3:* pl_medium_cclassifier_vX_x.ipynb (creates and tests a classical classifier)
 - *Session 4:* pl_advanced_hybrid_vX_x.ipynb (creates and tests a quantum-classical hybrid model)<br><br>
 - utilities.py (various functions used in model development and use)
 - requirements.txt (list of required packages)
