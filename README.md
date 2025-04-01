@@ -1,4 +1,3 @@
-<style> table {margin: auto; width:100%;} </style>
 ## An introduction to QML in PennyLane (PL)
 - **Author:** [Jacob Cybulski](https://jacobcybulski.com/) ([LinkedIn](https://www.linkedin.com/in/jacobcybulski/)), *Enquanted*
 - **Collaboration with:**
