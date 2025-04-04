@@ -50,5 +50,7 @@ _See the **requirements.txt** file, load with **pip install -r requirements.txt*
 - install [PyTorch](https://pytorch.org/get-started/locally/), as per web site instructions, also add:<br>
   pip install torchsummary torcheval torchmetrics
 
+The **requirements.txt** file was tested for the environment installation on Ubuntu 22.04-24.04, Windows 11 and MacOS 15.
+
 ### License
 This project is licensed under the [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/).
