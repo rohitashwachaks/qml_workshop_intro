@@ -1,7 +1,13 @@
-# Support functions for QML and QNN demos
+# Support functions for QML Workshop
 # Author: Jacob Cybulski, ironfrown[at]gmail.com
 # Date: September 2024
 # Updated: March 2025
+
+# Tested with:
+# PennyLane                 0.40.0
+# PennyLane_Lightning       0.40.0
+# PennyLane_Lightning_GPU   0.40.0
+
 
 import pylab
 import os
