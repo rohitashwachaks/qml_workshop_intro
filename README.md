@@ -19,21 +19,21 @@
 
 ### Important notebooks
 
-<!--You can play with these notebooks, enjoy!-->
-These notebooks are currently in development - please do not use them!
+You can play with these notebooks, enjoy!<br>
+Note however that they may be updated at any time!
 
 | Session | File | Description |
 | :-: | :- | :- |
-| *Explore&nbsp;1* | pl_explore_tiny_model_vX_x.ipynb | (explains QML principles using PL) |
-| *Explore&nbsp;2* | pl_explore_meas_tests_vX_x.ipynb | (explains data encoding and measurements in PL) |
+| *Explore&nbsp;1* | s00_explore_tiny_model_vX_x.ipynb | (explains QML principles using PL) |
+| *Explore&nbsp;2* | s00_explore_meas_tests_vX_x.ipynb | (explains data encoding and measurements in PL) |
 |  |  |  |
-| *Session&nbsp;1* | pl_simple_model_vX_x.ipynb | (creates and tests a very simple quantum model) |
-| *Session&nbsp;2* | pl_medium_qestimator_vX_x.ipynb | (creates and tests a more complex quantum estimator) |
-| *Session&nbsp;3* | pl_medium_qclassifier_vX_x.ipynb | (creates and tests a quantum classifier) |
-|  | pl_medium_cclassifier_vX_x.ipynb | (creates and tests a classical classifier) |
-| *Session&nbsp;4* | pl_advanced_hybrid_vX_x.ipynb | (creates and tests a quantum-classical hybrid model) |
-|  | pl_advanced_qreservoir_vX_x.ipynb | (hard challenge to create a PyTorch quantum reservoir) |
-|  | pl_advanced_creservoir_vX_x.ipynb | (reference for the challenge - classical reservoir in Python) |
+| *Session&nbsp;1* | s01_simple_model_vX_x.ipynb | (creates and tests a very simple quantum model) |
+| *Session&nbsp;2* | s02_medium_qestimator_vX_x.ipynb | (creates and tests a more complex quantum estimator) |
+| *Session&nbsp;3* | s03_medium_qclassifier_vX_x.ipynb | (creates and tests a quantum classifier) |
+|  | s03_medium_cclassifier_vX_x.ipynb | (creates and tests a classical classifier) |
+| *Session&nbsp;4* | s04_advanced_hybrid_vX_x.ipynb | (creates and tests a quantum-classical hybrid model) |
+|  | s04_challenge_qreservoir_vX_x.ipynb | (hard challenge to create a PyTorch quantum reservoir) |
+|  | s04_challenge_creservoir_vX_x.ipynb | (reference for the challenge - classical reservoir in Python) |
 
 ### Folders
 - legacy: previous versions of files dated with the time of their removal
@@ -50,7 +50,8 @@ _See the **requirements.txt** file, load with **pip install -r requirements.txt*
 - install [PyTorch](https://pytorch.org/get-started/locally/), as per web site instructions, also add:<br>
   pip install torchsummary torcheval torchmetrics
 
-The **requirements.txt** file was tested for the environment installation on Ubuntu 22.04-24.04, Windows 11 and MacOS 15.
+The **requirements.txt** file was tested for the environment installation on 
+Ubuntu 22.04-24.04, Windows 11 and MacOS Sequoia 15.3.1 (with M3 procesor).
 
 ### License
 This project is licensed under the [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/).
