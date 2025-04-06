@@ -54,4 +54,5 @@ The **requirements.txt** file was tested for the environment installation on
 Ubuntu 22.04-24.04, Windows 11 and MacOS Sequoia 15.3.1 (with M3 procesor).
 
 ### License
-This project is licensed under the [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/).
+This project is licensed under the [GNU General Public License v3](./LICENSE).
+The GPL v3 license requires attribution for modifications and derivatives, ensuring that users know which versions are changed and to protect the reputations of original authors.
