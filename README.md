@@ -1,4 +1,4 @@
-## An introduction to QML in PennyLane (PL)
+## An introduction to QML in PennyLane (PL) and PyTorch
 - **Author:** [Jacob Cybulski](https://jacobcybulski.com/) ([LinkedIn](https://www.linkedin.com/in/jacobcybulski/)), *Enquanted*
 - **Collaboration with:**
       [Sebastian Zając](https://sebastianzajac.pl/) ([LinkedIn](https://www.linkedin.com/in/sebastianzajac/)),
@@ -13,9 +13,9 @@
   - *Session 3:* Quantum classifiers (intermediate)
   - *Session 4:* Hybrid models (advanced)
 - **Release Date:**
-  - April, 11 2025
+  - April, 11 2025: The final versions will be made available 1 day before the workshop
 - **Last Update:**
-  - Apr 01, 2025 - Session 4 challenge added (draft)
+  - April 06, 2025: Sessions 1-4 completed, all challenges added, sample answers will be added after each session
 
 ### Important notebooks
 
