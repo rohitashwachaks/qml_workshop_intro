@@ -5,17 +5,18 @@
       Tomasz Rybotycki ([LinkedIn](https://www.linkedin.com/in/tomasz-rybotycki-01192582/)) and
       Paweł Gora ([LinkedIn](https://www.linkedin.com/in/pawelgora/))
 - **Associated with:** [QPoland](https://qworld.net/qpoland/) and [Quantum AI Foundation](https://www.qaif.org/)
-- **Aims:** To explore the creation and use of simple estimation model in PennyLane.
+- **Aims:** To explore the creation and use of quantum machine learning models in PennyLane and PyTorch.
 - **Description:** This Quantum Machine Learning (QML) workshop provides an introduction to Quantum Machine Learning using PennyLane and PyTorch, with hands-on exercises and take-home challenges. The workshop includes four practical sessions that cover the QML concepts, models, and techniques. The sessions explore development of quantum estimators and classifiers, their training with various optimisers, loss and cost functions, as well as model testing and scoring using variety of metrics. It finally, explains how to create hybrid quantum-classical QML models.
 - **Structure:** Four sessions over two days, i.e.
-  - *Session 1:* QML foundation (basic)
-  - *Session 2:* Quantum estimators (intermediate)
-  - *Session 3:* Quantum classifiers (intermediate)
-  - *Session 4:* Hybrid models (advanced)
+  - _**Session 1:**_ QML foundation (basic)
+  - _**Session 2:**_ Quantum estimators (intermediate)
+  - _**Session 3:**_ Quantum classifiers (intermediate)
+  - _**Session 4:**_ Hybrid models (advanced)
 - **Release Date:**
-  - April, 11 2025: The final versions will be made available 1 day before the workshop
+  - _**April, 11 2025:**_ The final versions will be made available 1 day before the workshop
 - **Last Update:**
-  - April 06, 2025: Sessions 1-4 completed, all challenges added, sample answers will be added after each session
+  - _**April 06, 2025:**_ Sessions 1-4 completed, all challenges added, sample answers will be added after each session
+  - _**April 07, 2025:**_ Small updates (README)
 
 ### Important notebooks
 
@@ -23,20 +24,25 @@ You can play with these notebooks, enjoy!<br>
 Note however that they may be updated at any time!
 
 | Session | File | Description |
-| :-: | :- | :- |
-| *Explore&nbsp;1* | s00_explore_tiny_model_vX_x.ipynb | (explains QML principles using PL) |
-| *Explore&nbsp;2* | s00_explore_meas_tests_vX_x.ipynb | (explains data encoding and measurements in PL) |
+| :- | :- | :- |
+| *Explore&nbsp;1* | s00_explore_tiny_model_vX_x.ipynb | Explains QML principles using PL |
+| *Explore&nbsp;2* | s00_explore_meas_tests_vX_x.ipynb | Explains data encoding and measurements in PL |
 |  |  |  |
-| *Session&nbsp;1* | s01_simple_model_vX_x.ipynb | (creates and tests a very simple quantum model) |
-| *Session&nbsp;2* | s02_medium_qestimator_vX_x.ipynb | (creates and tests a more complex quantum estimator) |
-| *Session&nbsp;3* | s03_medium_qclassifier_vX_x.ipynb | (creates and tests a quantum classifier) |
-|  | s03_medium_cclassifier_vX_x.ipynb | (creates and tests a classical classifier) |
-| *Session&nbsp;4* | s04_advanced_hybrid_vX_x.ipynb | (creates and tests a quantum-classical hybrid model) |
-|  | s04_challenge_qreservoir_vX_x.ipynb | (hard challenge to create a PyTorch quantum reservoir) |
-|  | s04_challenge_creservoir_vX_x.ipynb | (reference for the challenge - classical reservoir in Python) |
+| *Session&nbsp;1* | s01_simple_model_vX_x.ipynb | Creates and tests a very simple quantum model |
+| *Session&nbsp;2* | s02_medium_qestimator_vX_x.ipynb | Creates and tests a more complex quantum estimator |
+| *Session&nbsp;3* | s03_medium_qclassifier_vX_x.ipynb | (creates and tests a quantum classifier |
+|  | s03_medium_cclassifier_vX_x.ipynb | Creates and tests a classical classifier |
+| *Session&nbsp;4* | s04_advanced_hybrid_vX_x.ipynb | Creates and tests a quantum-classical hybrid model |
+|  | s04_challenge_qreservoir_vX_x.ipynb | Hard challenge to create a PyTorch quantum reservoir |
+|  | s04_challenge_creservoir_vX_x.ipynb | Reference for the challenge - classical reservoir in Python |
+|  |  |  |
+| *Other* | utilities.py | A number of useful plotting functions to make your life easier |
+| | requirements.txt | A list of software needed for this workshop (for auto-install with *pip*) |
 
 ### Folders
-- legacy: previous versions of files dated with the time of their removal
+- _**images:**_ some images appearing in notebooks (via a relative link)
+- _**legacy:**_ previous versions of files (in case you really really wanted them)
+- _**slides:**_ presentation slides in PDF (as they become available)
   
 ### Requirements
 _See the **requirements.txt** file, load with **pip install -r requirements.txt**._
