@@ -15,7 +15,7 @@
 - **Release Date:**
   - _**April, 11 2025:**_ The final versions will be made available 1 day before the workshop
 - **Last Update:**
-  - _**April 06, 2025:**_ Sessions 1-4 completed, all challenges added, sample answers will be added after each session
+  - _**April 06, 2025:**_ Sessions 1-4 completed, all challenges added, sample answers after sessions
   - _**April 07, 2025:**_ Small updates (README)
 
 ### Important notebooks
