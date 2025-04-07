@@ -51,7 +51,7 @@ Note however that they may be updated at any time!
 - Or install by hand by following these instructions:
     - pip install pennylane==0.40.0 pennylane-lightning==0.40.0 (PennyLane for CPU)
     - pip install scikit-learn==1.6.1 pandas==2.2.3 (ML)
-    - pip install matplotlib==3.10.1 plotly==6.0.0 seaborn==0.13.2 pillow==11.1.0 (plotting and image processing)
+    - pip install matplotlib==3.10.1 plotly==6.0.0 seaborn==0.13.2 pillow==11.1.0 (plots and images)
     - pip install jupyter==1.1.1 jupyterlab==4.3.5 (running jupyter notebooks)
     - pip install kagglehub==0.3.10 ucimlrepo==0.0.7 (data access)
     - pip install pdflatex (optionally to plot and export some plots and tables to latex)
