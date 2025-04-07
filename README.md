@@ -45,18 +45,20 @@ Note however that they may be updated at any time!
 - _**slides:**_ presentation slides in PDF (as they become available)
   
 ### Requirements
-_See the **requirements.txt** file, load with **pip install -r requirements.txt**._
-- Set up a virtual environment with venv or anaconda for Python 3.11, open it and install...
-- pip install pennylane==0.40.0 pennylane-lightning==0.40.0 (PennyLane for CPU)
-- pip install scikit-learn==1.6.1 pandas==2.2.3 (ML)
-- pip install matplotlib==3.10.1 plotly==6.0.0 seaborn==0.13.2 pillow==11.1.0 (plotting and image processing)
-- pip install jupyter==1.1.1 jupyterlab==4.3.5 (running jupyter notebooks)
-- pip install kagglehub==0.3.10 ucimlrepo==0.0.7 (data access)
-- pip install pdflatex (optionally to plot and export some plots and tables to latex)
-- install [PyTorch](https://pytorch.org/get-started/locally/), as per web site instructions, also add:<br>
-  pip install torchsummary torcheval torchmetrics
+- Set up a virtual environment with **venv** or **anaconda** for Python 3.11 and activate it
+- Then install all software using **requirements.txt** file (available here):
+    - pip install -r \<place-you-saved-it\>/requirements.txt
+- Or install by hand by following these instructions:
+    - pip install pennylane==0.40.0 pennylane-lightning==0.40.0 (PennyLane for CPU)
+    - pip install scikit-learn==1.6.1 pandas==2.2.3 (ML)
+    - pip install matplotlib==3.10.1 plotly==6.0.0 seaborn==0.13.2 pillow==11.1.0 (plotting and image processing)
+    - pip install jupyter==1.1.1 jupyterlab==4.3.5 (running jupyter notebooks)
+    - pip install kagglehub==0.3.10 ucimlrepo==0.0.7 (data access)
+    - pip install pdflatex (optionally to plot and export some plots and tables to latex)
+    - install [PyTorch](https://pytorch.org/get-started/locally/), as per web site instructions, also add:<br>
+      pip install torchsummary torcheval torchmetrics
 
-The **requirements.txt** file was tested for the environment installation on 
+The **requirements.txt** file was tested for installation on 
 Ubuntu 22.04-24.04, Windows 11 and MacOS Sequoia 15.3.1 (with M3 procesor).
 
 ### License
