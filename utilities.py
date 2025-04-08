@@ -55,7 +55,14 @@ def plot_hist(probs, scale=None, figsize=(8, 6), dpi=72, th=-10000, xlim=None, y
     # Prepare data
     n_probs = len(probs)
     n_digits = len(bin_int_to_list(n_probs, 1)) # 1 means as many digits as required
-    if labels is None: labels = [f'{n:0{n_digits}b}' for n in np.arange(n_probs)]
+    if labels is None: 
+        labels = [f'{n:0{n_digits}b}'[1:] for n in np.arange(n_probs)]
+        if len(labels) > 4:
+            default_rot = 60
+        else:
+            default_rot = 0
+    else:
+        default_rot = 0
 
     # Filter out the prob values below threshold
     pairs = [(p, l) for (p, l) in zip(probs, labels) if p >= th]
@@ -71,7 +78,7 @@ def plot_hist(probs, scale=None, figsize=(8, 6), dpi=72, th=-10000, xlim=None, y
     if ylim is not None: plt.ylim(ylim)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    plt.xticks(rotation=60)
+    plt.xticks(rotation=default_rot)
     if scale is not None:
         dpi = fig.get_dpi()
         fig.set_dpi(dpi*scale)
