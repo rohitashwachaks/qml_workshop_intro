@@ -1,5 +1,6 @@
 # 
-# QML workshop requirements
+# QML Workshop, QPoland and QAIF, April 2025
+# - Auto-install with "pip install -r requirements.txt" command
 # 
 attrs==22.2.0
 PennyLane==0.40.0
